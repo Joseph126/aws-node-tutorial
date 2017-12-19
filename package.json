@@ -1,27 +1,20 @@
 {
-  "name": "aws-node-tutorial",
+  "name": "sportuniteam",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "restart": "pm2 startOrRestart ecosystem.config.js",
-    "deploy": "pm2 deploy ecosystem.config.js production",
+	"start": "node index.js"
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Joseph126/aws-node-tutorial.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joseph126/aws-node-tutorial/issues"
-  },
-  "homepage": "https://github.com/Joseph126/aws-node-tutorial#readme",
   "dependencies": {
-    "express": "^4.16.2"
-  },
-  "devDependencies": {
-    "pm2": "^2.9.1"
+    "bcrypt": "^1.0.3",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "mssql": "^4.1.0",
+    "mysql": "^2.15.0"
   }
 }
+
